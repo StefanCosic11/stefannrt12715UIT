@@ -1,0 +1,305 @@
+body{
+	margin: 0 auto;
+	background-color: #c7d2e2;
+    
+}
+
+/*navigacija*/
+.navigacija{
+	max-width: 1300px;
+	width: 90%;
+	background-color: #595b5e;
+	border-radius: 13px 13px 13px 13px;
+	margin: 1% auto 10px auto;
+}
+.nav-ul{
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	list-style: none;
+}
+.nav-li{
+	float: left;
+	font-weight: bold;
+}
+.nav-li-a{ /* boja dugmica */
+	padding: 10px 40px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+}
+.nav-li-a:hover{ /* prelaz misem preko navigacije*/
+	background-color: #9b9ea3;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #171819;
+
+}
+.nav-li-r{
+	float: right;
+	font-weight: bold;
+}
+.nav-li-a-r{ /* kontakt*/
+	padding: 10px 40px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+}
+.nav-li-a-r:hover{ /* kontakt*/
+	background-color: #9b9ea3;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #171819;
+}
+.active{ /* trenutno aktivna stranica u meniju */
+	padding: 10px 40px;
+	display: block;
+	background-color: #2f3133;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10px;
+}
+/*kraj navigacije*/
+
+/*--------centralni deo--------*/
+.rezervacije{
+	color: white;
+	background-color: #171819;
+	max-width: 9%;
+	margin-left: 10%;
+	box-shadow: 6px 6px 3px #888888;
+	
+}
+.karte{ 
+	max-width: 50% ;
+  margin: auto 25% auto 25%;
+  background-color: #272f30;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+.forma h3{
+	color:#31c0d6 ;
+	font-size: 140%;
+}
+legend{
+	font-size: 120%;
+	color:#95cfd8;
+}
+label {
+	color: #5e9ea8;
+}
+.dugme{
+	background-color: green;
+	color:white;
+	font-size: 120%;
+	border-radius: 10px;
+	margin-left: 45%;
+
+}
+.note{
+	background-color: #f4dbd4;
+	bor
+	border-radius: 10px;
+	margin: auto 15% auto 15%;
+
+}
+.note h2{
+	color:red;
+	text-shadow: 0.5px 0.5px 1px black, 0 0 25px red, 0 0 5px black;
+}
+#Festival option{
+	background-color: yellow;
+}
+.dropdown-content { 
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index:-1;  
+	}
+
+
+/* kraj centralnog dela*/
+
+
+/*----------footer----------*/
+.footer {
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	clear: both;
+	display: block;
+	background-color:#2f3133;
+    border: 2px solid black; 
+    border-radius: 10px;
+    color:#171819 ;
+    height: 30px;
+
+}
+.footer p{
+	margin: 5px 10px;
+}
+.right {
+	padding: 5px 0px;
+    float: right ;
+
+}
+.right a{
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	}
+
+/*-----kraj footera---------*/
+
+
+
+
+
+
+
+
+/*Telefoni*/
+@media all and (max-width: 480px) and (min-width: 240px) {
+.navigacija{
+	background-color: #595b5e;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 0px 4px 5px 0px #999;
+	margin-bottom: 10px;
+}
+.nav-ul{
+	height: 240px;
+	text-align: center;
+	list-style: none;
+}
+.nav-li{
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	width: 100%;
+}
+.nav-li-a{
+	padding: 10px 50px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+}
+.nav-li-a:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+
+}
+.nav-li-r{
+	width: 100%;
+	float: left;
+	font-weight: bold;
+
+}
+.nav-li-a-r{
+	padding: 10px 50px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav-li-a-r:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+}
+.active{
+	padding: 10px 50px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0px 0px 10px 10px;
+}
+}/*Kraj telefona*/
+
+
+
+
+
+
+
+/*Tableti*/
+@media all and (max-width: 960px) and (min-width: 480px) {
+.navigacija{
+	background-color: #4BAD98;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 0px 4px 5px 0px #999;
+	margin-bottom: 10px;
+}
+.nav-ul{
+	height: 120px;
+	text-align: center;
+	list-style: none;
+}
+.nav-li{
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	width: 50%;
+}
+.nav-li-a{
+	padding: 10px 50px;
+	display: block;
+	background-color: #4BAD98;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+}
+.nav-li-a:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+
+}
+.nav-li-r{
+	width: 50%;
+	float: left;
+	font-weight: bold;
+
+}
+.nav-li-a-r{
+	padding: 10px 50px;
+	display: block;
+	background-color: #4BAD98;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav-li-a-r:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+}
+.active{
+	padding: 10px 50px;
+	display: block;
+	background-color: #348674;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0px 0px 10px 10px;
+}
+}/*Kraj tableta*/

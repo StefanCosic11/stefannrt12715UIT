@@ -1,0 +1,335 @@
+body{
+	margin: 0 auto;
+	
+	background-image: url("../slike/galerija.png"); 
+    background-repeat: no-repeat fixed;
+}
+
+/*navigacija*/
+.navigacija{
+	max-width: 1300px;
+	width: 90%;
+	background-color: #595b5e;
+	border-radius: 13px 13px 13px 13px;
+	margin: 1% auto 10px auto;
+}
+.nav-ul{
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	list-style: none;
+}
+.nav-li{
+	float: left;
+	font-weight: bold;
+}
+.nav-li-a{ /* boja dugmica */
+	padding: 10px 40px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+}
+.nav-li-a:hover{ /* prelaz misem preko navigacije*/
+	background-color: #9b9ea3;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #171819;
+
+}
+.nav-li-r{
+	float: right;
+	font-weight: bold;
+}
+.nav-li-a-r{ /* kontakt*/
+	padding: 10px 40px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.2s;
+	border-radius: 10px;
+}
+.nav-li-a-r:hover{ /* kontakt*/
+	background-color: #9b9ea3;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #171819;
+}
+.active{ /* trenutno aktivna stranica u meniju */
+	padding: 10px 40px;
+	display: block;
+	background-color: #2f3133;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10px;
+}
+/*kraj navigacije*/
+
+/*--------centralni deo--------*/
+.naslov{
+	color: white;
+	background-color: #171819;
+	max-width: 8%;
+	margin-left: 10%;
+	
+}
+.galerija
+{
+	width:98%;
+	background-color: ;
+	font-family: verdana;
+	padding: 2.8em;
+	
+
+}
+
+.galerija h3
+{
+	font-size: 14pt;
+	color:#222;
+	text-align: center;
+	padding:5px;
+	
+}
+
+.galerija p 
+{
+	color:white;
+	text-align: center;
+	font-size: 18pt;
+	background-color: #5e6166;
+}
+.galerija1 p 
+{
+	display: inline-block;
+	color:white;
+	text-align: center;
+	font-size: 18pt;
+	background-color: #5e6166;
+	margin-left: 3%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.delovi
+{
+	width: 19%;
+	height: 30%;
+    float: left;
+    font-family: verdana;
+    padding:33px;
+}
+
+.delovi img
+{
+	width: 100%;
+    height:100%;
+
+}
+
+
+
+.artikal
+{
+	background-color: white;
+}
+
+.artikal p 
+{
+	color:black;
+	text-align: center;
+
+
+}
+
+section[class*="efekat"]:hover {
+    -webkit-transform: scale(2.0);  
+    -webkit-transition: -webkit-transform .15s linear; 
+}
+.sve{
+	margin-left: 8%;
+    margin-right: 8%;
+	margin-bottom: 140px;
+}
+
+
+/* kraj centralnog dela*/
+
+
+/*----------footer----------*/
+.footer {
+
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	clear: both;
+	display: block;
+	background-color:#2f3133;
+    border: 2px solid black; 
+    border-radius: 10px;
+    color:#171819 ;
+    height: 30px;
+
+}
+.footer p{
+	margin: 5px 10px;
+}
+.right {
+	padding: 5px 0px;
+    float: right ;
+
+}
+.right a{
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	}
+
+/*-----kraj footera---------*/
+
+
+
+
+
+
+
+
+/*Telefoni*/
+@media all and (max-width: 480px) and (min-width: 240px) {
+.navigacija{
+	background-color: #595b5e;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 0px 4px 5px 0px #999;
+	margin-bottom: 10px;
+}
+.nav-ul{
+	height: 240px;
+	text-align: center;
+	list-style: none;
+}
+.nav-li{
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	width: 100%;
+}
+.nav-li-a{
+	padding: 10px 50px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+}
+.nav-li-a:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+
+}
+.nav-li-r{
+	width: 100%;
+	float: left;
+	font-weight: bold;
+
+}
+.nav-li-a-r{
+	padding: 10px 50px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav-li-a-r:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+}
+.active{
+	padding: 10px 50px;
+	display: block;
+	background-color: #171819;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0px 0px 10px 10px;
+}
+}/*Kraj telefona*/
+
+
+
+
+
+
+
+/*Tableti*/
+@media all and (max-width: 960px) and (min-width: 480px) {
+.navigacija{
+	background-color: #4BAD98;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 0px 4px 5px 0px #999;
+	margin-bottom: 10px;
+}
+.nav-ul{
+	height: 120px;
+	text-align: center;
+	list-style: none;
+}
+.nav-li{
+	margin: 0;
+	float: left;
+	font-weight: bold;
+	width: 50%;
+}
+.nav-li-a{
+	padding: 10px 50px;
+	display: block;
+	background-color: #4BAD98;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+}
+.nav-li-a:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+
+}
+.nav-li-r{
+	width: 50%;
+	float: left;
+	font-weight: bold;
+
+}
+.nav-li-a-r{
+	padding: 10px 50px;
+	display: block;
+	background-color: #4BAD98;
+	text-decoration: none;
+	color: #3C3C3C;
+	transition-duration: 0.2s;
+	border-radius: 0px 0px 10px 10px;
+}
+.nav-li-a-r:hover{
+	background-color: #3D9985;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	color: #fff;
+}
+.active{
+	padding: 10px 50px;
+	display: block;
+	background-color: #348674;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0px 0px 10px 10px;
+}
+}/*Kraj tableta*/
